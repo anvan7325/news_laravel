@@ -100,7 +100,7 @@ $categoryFooter  = Category::where('name','!=','Chưa phân loại')->withCount(
 		
 	<header class="header--section header--style-3">
 		<!-- Header Topbar Start -->
-		<div class="header--topbar  bg--color-1">
+		<div class="header--topbar  bg--color-3">
 
 			<div class="container">
 				<div class="float--left float--xs-none text-xs-center">
@@ -363,23 +363,23 @@ $categoryFooter  = Category::where('name','!=','Chưa phân loại')->withCount(
 						<span style="font-size: 14px" class="block">Thuộc Bộ Khoa học Công nghệ</span>
 					</p>
 					<p>
-						<span style="font-size: 14px" class="block">Số giấy phép: 548/GP-BTTTT ngày 27/06/2022</span>
+						<span style="font-size: 14px" class="block">Số giấy phép: 548/GP-BTTTT ngày 07/03/2025</span>
 					</p>
 				</div>
 				<div class="col-md-4">
-					<p>
+					{{-- <p>
 						<span style="font-size: 14px" class="block">Tổng biên tập: Nhóm TDQ Hutech</span>
-					</p>
-					<p>
+					</p> --}}
+					{{-- <p>
 						<span style="font-size: 14px" class="block">Địa chỉ: E1, Khu Công Nghệ cao, Phường Hiệp Phú, TP.HCM</span>
-					</p>
+					</p> --}}
 					<p>
 						<span style="font-size: 14px" class="block">Điện thoại: 0392766630</span>
 					</p>
 				</div>
 				<div class="col-md-4">
 					<p>
-						<small style="font-size: 14px" class="block">&copy; 2022. Toàn bộ bản quyền thuộc DTQ</small>
+						<small style="font-size: 14px" class="block">&copy; 2025. Toàn bộ bản quyền thuộc AN</small>
 					</p>
 					<p>
 						<ul style="display: flex;" class="header--topbar-social nav hidden-sm hidden-xxs">

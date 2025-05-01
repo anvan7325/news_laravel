@@ -88,9 +88,9 @@ class ContactController extends Controller
         }
         
 
-        // return redirect()->route('contact.create')->with('success', 
-        // 'Bạn đã gửi liên hệ thành công. Chúng tôi sẽ phản hổi cho bạn sớm nhất có thể !');
+        return redirect()->route('contact.create')->with('success', 
+        'Bạn đã gửi liên hệ thành công. Chúng tôi sẽ phản hổi cho bạn sớm nhất có thể !');
 
-        return response()->json($data);
+        // return response()->json($data);
     }
 }

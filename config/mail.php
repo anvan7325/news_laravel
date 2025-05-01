@@ -91,11 +91,11 @@ return [
     */
 
     'from' => [
-        'address' => 'hutechnews@gmail.com',
-        'name' => "Hutech News - Liên Hệ",
+        'address' => 'songnguwill@gmail.com',
+        'name' => "An - Liên Hệ",
     ],
 
-    'reply_to' => ['address' => 'hutechnews@gmail.com', 'name' => 'Hutech News - Liên hệ'],
+    'reply_to' => ['address' => 'songnguwill@gmail.com', 'name' => 'An - Liên hệ'],
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings
